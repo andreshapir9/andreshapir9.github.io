@@ -14,4 +14,8 @@ body {
 	   font-size: 35px;
 	   color: white;
 	 }
+p {
+	  border: 10px solid green;
+	    padding: 30px;
+    }
 
