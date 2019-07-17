@@ -48,12 +48,10 @@ article {
 	padding: 10px;
 }
 footer {
-	left: 0;
-	bottom: 0;
-	width: 100%;
-	background-color: black;
-	color: white;
+	backround-color: #777;
+	padding: 10px;
 	text-align: center;
+	color: white
 }
 @media (max-width: 600px) {
 	section {
