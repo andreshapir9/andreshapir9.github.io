@@ -62,11 +62,11 @@ footer {
 .flex-container {
 	display: flex;
 	flex-direction: column;
-	background-color: DodgerBlue;
+	background-color: black;
 }
 
 .flex-container > div {
-	background-color: #f1f1f1;
+	background-color: black;
 	width: 100px;
 	margin: 10px;
 	text-align: center;
