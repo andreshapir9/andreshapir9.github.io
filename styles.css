@@ -63,6 +63,8 @@ footer {
 	display: flex;
 	flex-direction: column;
 	background-color: black;
+	text-align: center;
+	justify-content: center;
 }
 
 .flex-container > div {
