@@ -3,9 +3,9 @@ function Hello() {
 }
 
 function sel_op(){
-	var a = document.getElementById("thedropdown");
-	alert(a.options[a.selectedIndex].value);
-	aValue = a.value;
+	var e = document.getElementById("thedropdown");
+	var value = e.options[e.selectedIndex].value;
+	var a = e.options[e.selectedIndex].text;
 	window.alert("you chose " + a);
 	if(a == '+'){
 		addnum();
