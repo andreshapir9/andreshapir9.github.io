@@ -5,14 +5,14 @@ function Hello() {
 function sel_op(){
 	var a = document.getElementById("thedropdown");
 	alert(a.options[a.selectedIndex].value);
-	if(a == "+"){
+	if(a == '+'){
 		addnum();
 		window.alert("lololololl" + "the variable is " + a);
-	}else if(a == "-"){
+	}else if(a == '-'){
 		subnum();
-	}else if(a == "*"){
+	}else if(a == '*'){
 		multnum();
-	}else if(a == "/"){
+	}else if(a == '/'){
 		divnum();
 	}
 	else{
