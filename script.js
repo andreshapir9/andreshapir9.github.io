@@ -7,14 +7,14 @@ function sel_op(){
 	var value = e.options[e.selectedIndex].value;
 	var a = e.options[e.selectedIndex].text;
 	window.alert("you chose " + a);
-	if(a == '+'){
+	if(a == 'add'){
 		addnum();
 		window.alert("lololololl" + "the variable is " + a);
-	}else if(a == '-'){
+	}else if(a == 'sub'){
 		subnum();
-	}else if(a == '*'){
+	}else if(a == 'mul'){
 		multnum();
-	}else if(a == '/'){
+	}else if(a == 'div'){
 		divnum();
 	}
 	else{
