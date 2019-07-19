@@ -3,7 +3,7 @@ function Hello() {
 }
 
 function sel_op(){
-	var a = document.getElementById("thedropdown");
+	var a = (document.getElementById("thedropdown").value);
 	alert(a.options[a.selectedIndex].value);
 	if(a = '+'){
 		addnum();
