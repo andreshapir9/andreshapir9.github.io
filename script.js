@@ -6,7 +6,7 @@ function sel_op(){
 	var e = document.getElementById("thedropdown");
 	var value = e.options[e.selectedIndex].value;
 	var a = e.options[e.selectedIndex].text;
-	window.alert("you chose " + a);
+	//window.alert("you chose " + a);
 	if(a == 'add'){
 		addnum();
 		window.alert("lololololl" + "the variable is " + a);
@@ -16,7 +16,9 @@ function sel_op(){
 		multnum();
 	}else if(a == 'div'){
 		divnum();
-	}
+	}else if(a == "pow"){
+		pownum();
+	}	
 	else{
 		window.alert("you did it wrong dumbass");
 	}
