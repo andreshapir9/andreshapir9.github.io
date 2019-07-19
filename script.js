@@ -7,11 +7,11 @@ function sel_op(){
 	alert(a.options[a.selectedIndex].value);
 	if(a = '+'){
 		addnum();
-	}else if(a = '-'){
+	}else if(a == '-'){
 		subnum();
-	}else if(a = '*'){
+	}else if(a == '*'){
 		multnum();
-	}else if(a = '/'){
+	}else if(a == '/'){
 		divnum();
 	}
 }
