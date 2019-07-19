@@ -1,5 +1,5 @@
 <!DOCTYPE javascript>
 function Hello() {
-	alert("Hello, World");
+	window.alert("Hello, World");
 }
 
