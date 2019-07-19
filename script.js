@@ -7,6 +7,7 @@ function sel_op(){
 	alert(a.options[a.selectedIndex].value);
 	if(a = '+'){
 		addnum();
+		window.alert("lololololl");
 	}else if(a == '-'){
 		subnum();
 	}else if(a == '*'){
