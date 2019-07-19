@@ -5,6 +5,7 @@ function Hello() {
 function sel_op(){
 	var a = document.getElementById("thedropdown");
 	alert(a.options[a.selectedIndex].value);
+	aValue = a.value;
 	window.alert("you chose " + a);
 	if(a == '+'){
 		addnum();
