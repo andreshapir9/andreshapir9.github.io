@@ -33,14 +33,24 @@
 				<!-- <p><a href="https://github.com/andreshapir9">here is my github</a></p>-->
 		</article>
 	</section>
+	<button onclick="myFunction()">Click Me </button>
+
+	<p id="Button"></p>
+
+	<script>
+		function myFunction() {
+			  var txt;
+			  var person = prompt("Please enter your name:", "UserName");
+			  if (person == null || person == "") {
+				      txt = "User cancelled the prompt.";
+				    } else {
+					        txt = "Hello " + person + "! How are you today?";
+					      }
+			  document.getElementById("Button").innerHTML = txt;
+		}
+	</script>
 	<div class="footer">
 		<footer>
-			<button onclick="myFunction()">Press here for the news</button>
-			<script>
-				function myFunction() {
-					  alert("You are In my website");
-				}
-			</script>
 			<IMG SRC="https://www.eecs.mit.edu/sites/default/files/announcements/EECS_BCS_MIT_News.jpg">
 		</footer>
 	</div>
